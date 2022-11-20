@@ -97,6 +97,27 @@ namespace satisfactionSurvey.Controllers
                 }
             }       
         }
+
+        [HttpGet]
+        public List<Avaliacao> ListarPorDisciplina(int id)
+        {
+            return contexto.Avaliacaos.Include(v => v.IdDisciplinaNavigation).Where(v => v.IdDisciplina == id).Select
+            (
+                    v => new Avaliacao 
+                    { 
+                    Id = v.Id,
+                    Nota= v.Nota,
+                    Comentario = v.Comentario,
+                    IdDisciplina = v.IdDisciplina,
+                    IdDisciplinaNavigation = new Disciplina 
+                        { 
+                             Id = v.IdDisciplinaNavigation.Id, 
+                            NomeDisciplina = v.IdDisciplinaNavigation.NomeDisciplina
+                        }, 
+                        
+                    }
+                ).ToList();
+        }
         
     }
 }
