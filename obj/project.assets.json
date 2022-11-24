@@ -944,11 +944,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador\\satisfactionSurvey\\satisfactionSurvey.csproj",
+      "projectUniqueName": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador Renato\\satisfactionSurvey\\satisfactionSurvey.csproj",
       "projectName": "satisfactionSurvey",
-      "projectPath": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador\\satisfactionSurvey\\satisfactionSurvey.csproj",
+      "projectPath": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador Renato\\satisfactionSurvey\\satisfactionSurvey.csproj",
       "packagesPath": "C:\\Users\\reap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador\\satisfactionSurvey\\obj\\",
+      "outputPath": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador Renato\\satisfactionSurvey\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\reap\\AppData\\Roaming\\NuGet\\NuGet.Config"

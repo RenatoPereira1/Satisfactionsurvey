@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/obE04YLsFq0RLjATLdrbB36RpFsSto/GxrZRcWLTeyrZANN5m4ngBFhQPYwZ0AQzFHnbZPThdTN6JXkRIVIwg==",
+  "dgSpecHash": "X6GRmWXU9UPTAJy3dgihB7Mx5sRIY/EnARxkEx/Pk0Uf7/Fwi91qof4aA7Nw4Xs+Lu8rq9eesHxGXKdE6UNcag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador\\satisfactionSurvey\\satisfactionSurvey.csproj",
+  "projectFilePath": "C:\\Users\\reap\\Dropbox\\Faculdade\\8° Trimestre\\Projeto Integrador III\\ProjetoIntegrador Renato\\satisfactionSurvey\\satisfactionSurvey.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reap\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\reap\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

@@ -19,6 +19,7 @@ function carregarGrid(avaliacoes) {
     for (i = 0; i < avaliacoes.length; i++) {
         let row = $('<tr class="text-center"></tr>');
 
+        
         row.append($('<td></td>').html(avaliacoes[i].idDisciplinaNavigation.nomeDisciplina));
         row.append($('<td></td>').html(avaliacoes[i].nota));
         row.append($('<td></td>').html(avaliacoes[i].comentario));
@@ -76,7 +77,7 @@ function listarAvaliacaoPorDisciplina() {
 function deleteAvaliacao(id) {
     $.ajax({
         type: 'DELETE',
-        url: 'https://localhost:5001/Mensagem/Excluir',
+        url: 'https://localhost:5001/Avaliacao/Excluir',
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify(id),
         success: function (resposta) {
@@ -95,20 +96,16 @@ function deleteAvaliacao(id) {
 }
 
 function visualisarAvaliacao(id){
-    $.get('https://localhost:5001/Mensagem/Visualisar?id='+id)
+    $.get('https://localhost:5001/Avaliacao/Visualizar?id='+id)
     .done(function(resposta){
-        let visualizacao = "ID: " + resposta.id;
-        visualizacao += '\n';
-        visualizacao += "NOTA: " + resposta.avaliacao;
+        let visualizacao = "NOTA: " + resposta.nota;
         visualizacao += '\n';
         visualizacao += "COMENTÁRIO: " + resposta.comentario;
+        alert(visualizacao);
         
-        Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: visualizacao,
-            showConfirmButton: true
-        })
     })
+    .fail(function(erro, mensagem, excecao) { 
+        alert("Erro ao consultar a API!");
+    });
 }
 
